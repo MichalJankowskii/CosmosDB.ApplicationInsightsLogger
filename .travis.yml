@@ -1,4 +1,2 @@
 language: csharp
 solution: ./src/CosmosDB.LoggingExtension.sln
-script:
-  - xbuild /p:Configuration=Release ./src/CosmosDB.LoggingExtension.sln
