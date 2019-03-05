@@ -4,7 +4,7 @@ if exist %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild.exe set MSBUILD=%WI
 if exist "%ProgramFiles%\MSBuild\14.0\bin\msbuild.exe" set MSBUILD=%ProgramFiles%\MSBuild\14.0\bin\msbuild.exe
 if exist "%ProgramFiles(x86)%\MSBuild\14.0\bin\msbuild.exe" set MSBUILD=%ProgramFiles(x86)%\MSBuild\14.0\bin\msbuild.exe
 
-"%MSBUILD%" src\CosmosDB.LoggingExtension.sln /property:Configuration=Publish
+"%MSBUILD%" src\CosmosDB.LoggingExtension.sln /property:Configuration=Release
 if "%1"=="Publish" goto publish
 goto end
 

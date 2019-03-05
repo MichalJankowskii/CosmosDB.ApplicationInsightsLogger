@@ -2,7 +2,7 @@ $keyfile = "D:\Dropbox\nuget-access-key.txt"
 $scriptpath = split-path -parent $MyInvocation.MyCommand.Path
 $nugetpath = resolve-path "$scriptpath/../.nuget/nuget.exe"
 $packagespath = resolve-path "$scriptpath/../.build"
-$pathToDll = resolve-path "$scriptpath/../src/CosmosDB.LoggingExtension/bin/Publish/CosmosDB.ApplicationInsightsLogger.dll"
+$pathToDll = resolve-path "$scriptpath/../src/CosmosDB.ApplicationInsightsLogger/bin/Release/CosmosDB.ApplicationInsightsLogger.dll"
 
 write-host $keyfile
 

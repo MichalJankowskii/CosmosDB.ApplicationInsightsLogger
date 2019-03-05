@@ -19,7 +19,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\src\CosmosDB.ApplicationInsightsLogger\bin\Publish\CosmosDB.ApplicationInsightsLogger.dll" target="lib/net461" />
-    <file src="..\src\CosmosDB.ApplicationInsightsLogger\bin\Publish\CosmosDB.ApplicationInsightsLogger.pdb" target="lib/net461" />
+    <file src="..\src\CosmosDB.ApplicationInsightsLogger\bin\Release\CosmosDB.ApplicationInsightsLogger.dll" target="lib/net461" />
+    <file src="..\src\CosmosDB.ApplicationInsightsLogger\bin\Release\CosmosDB.ApplicationInsightsLogger.pdb" target="lib/net461" />
   </files>
 </package>
