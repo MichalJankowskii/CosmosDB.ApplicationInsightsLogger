@@ -1,6 +1,6 @@
 # CosmosDB.ApplicationInsightsLogger
 [![Build Status](https://travis-ci.org/MichalJankowskii/CosmosDB.ApplicationInsightsLogger.svg?branch=master)](https://travis-ci.org/MichalJankowskii/CosmosDB.ApplicationInsightsLogger.Helpers)
-[![Downloads](https://img.shields.io/nuget/dt/CosmosDB.ApplicationInsightsLogger.svg)](https://github.com/MichalJankowskii/CosmosDB.ApplicationInsightsLogger)
+[![Downloads](https://img.shields.io/nuget/dt/CosmosDB.LoggingExtension.svg)](https://github.com/MichalJankowskii/CosmosDB.ApplicationInsightsLogger)
 
 The library that provides methods that will help you with monitoring and logging CosmosDB with ApplicationInsights. With you will be able to gather information about the cost of CosmosDb queries and plan optimisations on the database.
 ## Installation - NuGet Packages
